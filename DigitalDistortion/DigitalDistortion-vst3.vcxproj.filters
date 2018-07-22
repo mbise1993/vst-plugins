@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DigitalDistortion.cpp" />
+    <ClCompile Include="..\lib\VST3_SDK\pluginterfaces\base\funknown.cpp" />
+    <ClCompile Include="..\lib\VST3_SDK\pluginterfaces\base\ustring.cpp" />
+    <ClCompile Include="..\lib\VST3_SDK\public.sdk\source\common\pluginview.cpp" />
+    <ClCompile Include="..\lib\VST3_SDK\public.sdk\source\main\dllmain.cpp" />
+    <ClCompile Include="..\lib\VST3_SDK\public.sdk\source\main\pluginfactoryvst3.cpp" />
+    <ClCompile Include="..\lib\VST3_SDK\public.sdk\source\vst\vstaudioeffect.cpp" />
+    <ClCompile Include="..\lib\VST3_SDK\public.sdk\source\vst\vstbus.cpp" />
+    <ClCompile Include="..\lib\VST3_SDK\public.sdk\source\vst\vstcomponent.cpp" />
+    <ClCompile Include="..\lib\VST3_SDK\public.sdk\source\vst\vstcomponentbase.cpp" />
+    <ClCompile Include="..\lib\VST3_SDK\public.sdk\source\vst\vstinitiids.cpp" />
+    <ClCompile Include="..\lib\VST3_SDK\public.sdk\source\vst\vstparameters.cpp" />
+    <ClCompile Include="..\lib\VST3_SDK\public.sdk\source\vst\vstsinglecomponenteffect.cpp" />
+    <ClCompile Include="..\lib\WDL\IPlug\IPlugVST3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DigitalDistortion.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\base\falignpop.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\base\falignpush.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\base\fplatform.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\base\ftypes.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\base\funknown.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\base\ipluginbase.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\base\keycodes.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\base\ustring.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\gui\iplugview.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\ivstattributes.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\ivstaudioprocessor.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\ivstcomponent.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\ivsteditcontroller.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\ivstevents.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\ivsthostapplication.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\ivstmessage.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\ivstmidicontrollers.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\ivstparameterchanges.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\ivstprocesscontext.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\ivstunits.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\vstpresetkeys.h" />
+    <ClInclude Include="..\lib\VST3_SDK\pluginterfaces\vst\vsttypes.h" />
+    <ClInclude Include="..\lib\VST3_SDK\public.sdk\source\common\pluginview.h" />
+    <ClInclude Include="..\lib\VST3_SDK\public.sdk\source\main\pluginfactoryvst3.h" />
+    <ClInclude Include="..\lib\VST3_SDK\public.sdk\source\vst\vstaudioeffect.h" />
+    <ClInclude Include="..\lib\VST3_SDK\public.sdk\source\vst\vstbus.h" />
+    <ClInclude Include="..\lib\VST3_SDK\public.sdk\source\vst\vstcomponent.h" />
+    <ClInclude Include="..\lib\VST3_SDK\public.sdk\source\vst\vstcomponentbase.h" />
+    <ClInclude Include="..\lib\VST3_SDK\public.sdk\source\vst\vsteditcontroller.h" />
+    <ClInclude Include="..\lib\VST3_SDK\public.sdk\source\vst\vstparameters.h" />
+    <ClInclude Include="..\lib\VST3_SDK\public.sdk\source\vst\vstsinglecomponenteffect.h" />
+    <ClInclude Include="..\lib\WDL\IPlug\IPlugVST3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="vst3">
+      <UniqueIdentifier>{0028f8fa-40ce-4098-b1d7-1930d1a7774b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\VST3SDK">
+      <UniqueIdentifier>{d33dc1fa-0b31-40b9-a240-b065db740979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\VST3SDK\pluginterfaces">
+      <UniqueIdentifier>{1da1c979-a505-4558-b877-1a2da0e4e758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\VST3SDK\pluginterfaces\base">
+      <UniqueIdentifier>{cf0c95d2-7b5a-4afa-8a3e-546800d9b337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\VST3SDK\pluginterfaces\vst">
+      <UniqueIdentifier>{babb4a18-d1d6-467e-af1c-fb852400f591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\VST3SDK\pluginterfaces\gui">
+      <UniqueIdentifier>{a0598a21-18c6-4da8-98a8-bebbf0f37b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\VST3SDK\public.sdk">
+      <UniqueIdentifier>{bc78847c-a41c-4ad7-8a8e-2ea825bc2f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\VST3SDK\public.sdk\common">
+      <UniqueIdentifier>{23863805-5085-4669-8675-167aba1f0fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\VST3SDK\public.sdk\vst">
+      <UniqueIdentifier>{00ff2592-e5ef-4ab1-8b06-c42242d80c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vst3\VST3SDK\public.sdk\main">
+      <UniqueIdentifier>{ec7b025c-4ef1-4403-956b-b3673b4715b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DigitalDistortion.rc" />
+  </ItemGroup>
+</Project>

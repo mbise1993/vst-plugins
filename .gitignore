@@ -35,6 +35,5 @@ build-*
 Icon?
 .DS_Stor*
 
-DigitalDistortion/*
 Synthesis/*
 vstsdk-test/*
