@@ -35,5 +35,4 @@ build-*
 Icon?
 .DS_Stor*
 
-Synthesis/*
 vstsdk-test/*
